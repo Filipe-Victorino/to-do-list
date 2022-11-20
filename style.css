@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+  }
+        
+#container-imagem {
+    
+    position: relative;
+    height: 96vh;
+    width: 97vw;
+    background: url("https://media.istockphoto.com/id/1304684103/pt/foto/lined-notebook-paper-for-background.jpg?s=612x612&w=0&k=20&c=devI-1imM4Ssol9V3s-rkdvIq93It3goYFpYm_itCxA=");
+    background-size: cover;
+   
+}
+
+.intro {
+    
+    margin: 30px 0px;
+    font-weight: bold;
+
+}
+
+h1 {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    font-weight: 600;
+}
+
+#first {
+    margin-top: 10px;
+    color: #030303;
+}
+
+#second {
+    color: #000000;
+    margin-top: 25px;
+
+}
+
+#third {
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+
+.dados{
+    
+    margin: 0 auto;
+    width: 70%;
+    
+}
+
+
+#enter {
+    
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #04bf1787;
+    background-color: #1287cf74;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.75s ease;
+    -moz-transition: all 0.75s ease;
+    -ms-transition: all 0.75s ease;
+    -o-transition: all 0.75 ease;
+    font-weight: normal;
+    display: inline-block;
+}
+
+#enter:hover{
+    background-color: #47c6569e;
+    color: #000000;
+}
+
+    #enter img{
+        width: 25px;
+        height: 25px;
+    }
+
+ul {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #025f70;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #4EB9CD;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+}
+
+li:hover {
+    background: #76CFE0;
+}
+
+li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right !important;
+    color: #025f70;
+    font-weight: 800;
+}
+
+input {
+    background-color: rgba(105, 105, 105, 0.156);
+    border-radius: 5px;
+    min-width: 90%;
+    padding: 5px;
+    height: 35px;
+    border: none;
+    margin: 0px;
+    float: left;
+    
+}
+
+
+.done {
+    background: #4ac264 !important;
+    color: #fdfdfd;
+}
+
+.delete {
+    display: none;
+}
